@@ -17,7 +17,7 @@ def gif_split(path):
         while True:
             print('正在拆解第{}帧...'.format(i))
             img.seek(i)
-            img.save('{}/'.format(save_path) + str(i) + '.bmp')
+            img.save('{}/'.format(save_path) + str(i) + '.png')
             i += 1
     except:
         pass
